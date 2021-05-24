@@ -29,11 +29,9 @@ const User = mongoose.model("User", {
   },
   hash: {
     type: String,
-    select: false,
   },
   salt: {
     type: String,
-    select: false,
   },
 });
 
