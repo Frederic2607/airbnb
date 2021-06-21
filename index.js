@@ -15,6 +15,7 @@ mongoose.connect("mongodb://localhost/airbnb", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
+  useFindAndModify: false,
 });
 
 // Import Routes
