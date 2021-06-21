@@ -20,6 +20,8 @@ mongoose.connect("mongodb://localhost/airbnb", {
 // Import Routes
 const userRoutes = require("./routes/user");
 app.use(userRoutes);
+const roomRoutes = require("./routes/room");
+app.use(roomRoutes);
 
 // Main page
 app.get("/", (req, res) => {
